@@ -1,3 +1,5 @@
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mihaiomg/webalert/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/mihaiomg/webalert/?branch=main)
+
 # Laravel WebAlert
 
 The https://www.webalert.ro turn your Android phone into a SMS gateway and provide a friendly API to help us send and receive SMS messages.

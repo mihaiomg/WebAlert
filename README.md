@@ -5,7 +5,7 @@ The https://www.webalert.ro turn your Android phone into a SMS gateway and provi
 This package help you to send SMS through the WebAlert from your Laravel APP.
 
 # Send Single Message
-
+```
 try {
     // Send a message using the primary device.
     $msg = sendSingleMessage("+11234567890", "This is a test of single message.");
@@ -33,10 +33,10 @@ try {
 } catch (Exception $e) {
     echo $e->getMessage();
 }
-
+```
 
 # Send Bulk Messages
-
+```
 $messages = array();
 
 for ($i = 1; $i <= 12; $i++) {
@@ -97,8 +97,9 @@ try {
 } catch (Exception $e) {
     echo $e->getMessage();
 }
-
+```
 # Get remaining message credits
+```
 try {
     $credits = getBalance();
     echo "Message Credits Remaining: {$credits}";
@@ -125,8 +126,9 @@ try {
 } catch (Exception $e) {
     echo $e->getMessage();
 }
-
+```
 # Resend messages
+```
 try {
     // Resend a message using the ID.
     $msg = resendMessageByID(1);
@@ -145,8 +147,9 @@ try {
 } catch (Exception $e) {
     echo $e->getMessage();
 }
-
+```
 # Manage Contacts
+```
 try {
     // Add a new contact to contacts list 1 or resubscribe the contact if it already exists.
     $contact = addContact(1, "+11234567890", "Test", true);
@@ -158,8 +161,9 @@ try {
 } catch (Exception $e) {
     echo $e->getMessage();
 }
-
+```
 # Send USSD request
+```
 try {
     // Send a USSD request using default SIM of Device ID 1.
     $ussdRequest = sendUssdRequest("*150#", 1);
@@ -175,8 +179,9 @@ try {
 } catch (Exception $e) {
     echo $e->getMessage();
 }
-
+```
 # Get USSD requests
+```
 try {
     // Get a USSD request using the ID.
     $ussdRequest = getUssdRequestByID(1);
@@ -188,3 +193,4 @@ try {
 } catch (Exception $e) {
     echo $e->getMessage();
 }
+```

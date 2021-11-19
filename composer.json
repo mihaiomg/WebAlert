@@ -1,0 +1,18 @@
+{
+    "name": "mihaiomg/WebAlert",
+    "description": "A Laravel bridge to https://www.webalert.ro",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oancea Mihai Gabriel",
+            "email": "mihai.omg@gmail.com"
+        }
+    ],
+    "autoload": {
+
+        "psr-4": {
+            "mihaiomg\\WebAlert\\": "src"
+        }
+    },
+    "require": {}
+}

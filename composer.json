@@ -1,5 +1,5 @@
 {
-    "name": "mihaiomg/WebAlert",
+    "name": "mihaiomg/webalert",
     "description": "A Laravel bridge to https://www.webalert.ro",
     "license": "MIT",
     "authors": [
@@ -11,7 +11,7 @@
     "autoload": {
 
         "psr-4": {
-            "mihaiomg\\WebAlert\\": "src"
+            "mihaiomg\\webalert\\": "src"
         }
     },
     "require": {}

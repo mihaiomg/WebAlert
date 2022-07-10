@@ -4,7 +4,7 @@ namespace mihaiomg\WebAlert;
 class WebAlert
 {
 
-    private $baseUrl = 'https://www.webalert.ro/';
+    private $baseUrl = 'https://www.app.webalert.ro/';
     function __construct()
     {
         $this->apikey = config('webalert.apikey');

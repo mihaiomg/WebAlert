@@ -8,6 +8,12 @@
             "email": "mihai.omg@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5",
+        "ext-dom": "*",
+        "ext-simplexml": "*"
+    },
     "autoload": {
 
         "psr-4": {

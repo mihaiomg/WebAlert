@@ -8,9 +8,9 @@
             "email": "mihai.omg@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "1.0",
     "require": {
-        "php": ">=5.5",
+        "php": ">=74",
         "ext-dom": "*",
         "ext-simplexml": "*"
     },

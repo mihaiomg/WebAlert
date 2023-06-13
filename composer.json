@@ -8,7 +8,7 @@
             "email": "mihai.omg@gmail.com"
         }
     ],
-    "minimum-stability": "1.0",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=74",
         "ext-dom": "*",
